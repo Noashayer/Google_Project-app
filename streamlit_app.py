@@ -6,4 +6,7 @@ st.write(
 )
 # Get text input from the user
 user_text = st.text_input("Please enter some text:")
+def func_len(user_text):
+    st.write(len(user_text))
+func_len(user_text)
 
